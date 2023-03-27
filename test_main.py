@@ -15,7 +15,7 @@ def test_calculate_price_when_buying_5_dozen_or_more():
     expected_price = 174.95999999999998
     assert calculate_price(num_dozen) == expected_price
 
-def test_calculate_price_when_buying_10dozen():
+def test_calculate_price_when_buying_10_dozen():
     num_dozen = 10
     expected_price = 349.91999999999996
     assert calculate_price(num_dozen) == expected_price
